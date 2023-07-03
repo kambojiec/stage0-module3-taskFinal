@@ -11,5 +11,6 @@ public class NumberReverter {
         reversedNumber += (10 * a);
         reversedNumber += number;
         number = reversedNumber;
+        System.out.println(number);
     }
 }
